@@ -1,11 +1,11 @@
 # Flutter InAppWebView Plugin Test
 
-Flutter **flutter_inappwebview** 套件官方範例。
+Flutter **flutter_inappwebview** 套件測試。
 
 
 ## 參考資料
 
-### 官方
+### 基本操作（官方）
 
 * [**pub.dev**](https://pub.dev/packages/flutter_inappwebview)
 * [**GitHub**](https://github.com/pichillilorenzo/flutter_inappwebview)
