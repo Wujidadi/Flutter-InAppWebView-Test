@@ -69,7 +69,7 @@ class RGBColors
     static RGBColor ashGray = RGBColor(r: 178, g: 190, b: 181);
 
     /// 灰燼灰
-    static RGBColor ashGrey = ashGray;
+    static RGBColor ashGrey = RGBColor(r: 178, g: 190, b: 181);
 
     /// 蘆筍色
     static RGBColor asparagus = RGBColor(r: 135, g: 169, b: 107);
@@ -117,7 +117,7 @@ class RGBColors
     static RGBColor battleshipGray = RGBColor(r: 132, g: 132, b: 130);
 
     /// 軍艦灰
-    static RGBColor battleshipGrey = battleshipGray;
+    static RGBColor battleshipGrey = RGBColor(r: 132, g: 132, b: 130);
 
     /// 市集
     static RGBColor bazaar = RGBColor(r: 152, g: 119, b: 123);
@@ -130,6 +130,12 @@ class RGBColors
 
     /// 米色
     static RGBColor beige = RGBColor(r: 245, g: 245, b: 220);
+
+    /// 米灰色
+    static RGBColor beigeGray = RGBColor(r: 211, g: 203, b: 175);
+
+    /// 米灰色
+    static RGBColor beigeGrey = RGBColor(r: 211, g: 203, b: 175);
 
     /// 陶坯黃
     static RGBColor bisque = RGBColor(r: 255, g: 228, b: 196);
@@ -164,11 +170,11 @@ class RGBColors
     /// 藍灰色
     static RGBColor blueGray = RGBColor(r: 102, g: 153, b: 204);
 
-    /// 藍灰色
-    static RGBColor blueGrey = blueGray;
-
     /// 藍綠色
     static RGBColor blueGreen = RGBColor(r: 13, g: 152, b: 186);
+
+    /// 藍灰色
+    static RGBColor blueGrey = RGBColor(r: 102, g: 153, b: 204);
 
     /// 藍紫色
     static RGBColor bluePurple = RGBColor(r: 138, g: 43, b: 226);
@@ -277,12 +283,6 @@ class RGBColors
 
     /// 拜占庭紫灰色
     static RGBColor byzantium = RGBColor(r: 112, g: 41, b: 99);
-
-    /// CG 藍色
-    static RGBColor cgBlue = RGBColor(r: 0, g: 122, b: 165);
-
-    /// CG 紅色
-    static RGBColor cgRed = RGBColor(r: 224, g: 60, b: 49);
 
     /// 灰藍色
     static RGBColor cadet = RGBColor(r: 83, g: 104, b: 114);
@@ -395,6 +395,12 @@ class RGBColors
     /// 深蔚藍色
     static RGBColor ceruleanBlue = RGBColor(r: 42, g: 82, b: 190);
 
+    /// CG 藍色
+    static RGBColor cgBlue = RGBColor(r: 0, g: 122, b: 165);
+
+    /// CG 紅色
+    static RGBColor cgRed = RGBColor(r: 224, g: 60, b: 49);
+
     /// 麂皮色
     static RGBColor chamoisee = RGBColor(r: 160, g: 120, b: 90);
 
@@ -447,7 +453,7 @@ class RGBColors
     static RGBColor cobalt = RGBColor(r: 0, g: 71, b: 171);
 
     /// 鈷藍色
-    static RGBColor cobaltBlue = cobalt;
+    static RGBColor cobaltBlue = RGBColor(r: 0, g: 71, b: 171);
 
     /// 鈷綠色
     static RGBColor cobaltGreen = RGBColor(r: 102, g: 255, b: 89);
@@ -471,7 +477,7 @@ class RGBColors
     static RGBColor coolGray = RGBColor(r: 140, g: 146, b: 172);
 
     /// 冷灰色
-    static RGBColor coolGrey = coolGray;
+    static RGBColor coolGrey = RGBColor(r: 140, g: 146, b: 172);
 
     /// 銅色
     static RGBColor copper = RGBColor(r: 184, g: 115, b: 51);
@@ -521,11 +527,11 @@ class RGBColors
     /// 緋色
     static RGBColor crimson = RGBColor(r: 220, g: 20, b: 60);
 
-    /// 緋紅色
-    static RGBColor crimsonRed = RGBColor(r: 153, g: 0, b: 0);
-
     /// 赤色榮耀
     static RGBColor crimsonGlory = RGBColor(r: 190, g: 0, b: 50);
+
+    /// 緋紅色
+    static RGBColor crimsonRed = RGBColor(r: 153, g: 0, b: 0);
 
     /// 青色
     static RGBColor cyan = RGBColor(r: 0, g: 255, b: 255);
@@ -554,16 +560,16 @@ class RGBColors
     /// 暗蔚藍
     static RGBColor darkCerulean = RGBColor(r: 8, g: 69, b: 126);
 
-    /// 
+    /// 暗栗色
     static RGBColor darkChestnut = RGBColor(r: 152, g: 105, b: 96);
 
-    /// 
+    /// 暗珊瑚色
     static RGBColor darkCoral = RGBColor(r: 205, g: 91, b: 69);
 
     /// 暗青色
     static RGBColor darkCyan = RGBColor(r: 0, g: 139, b: 139);
 
-    /// 
+    /// 暗電子藍
     static RGBColor darkElectricBlue = RGBColor(r: 83, g: 104, b: 120);
 
     /// 暗金菊色
@@ -572,13 +578,13 @@ class RGBColors
     /// 暗灰色
     static RGBColor darkGray = RGBColor(r: 169, g: 169, b: 169);
 
-    /// 暗灰色
-    static RGBColor darkGrey = darkGray;
-
     /// 暗綠色
     static RGBColor darkGreen = RGBColor(r: 0, g: 100, b: 0);
 
-    /// 暗栗色
+    /// 暗灰色
+    static RGBColor darkGrey = RGBColor(r: 169, g: 169, b: 169);
+
+    /// 暗叢林綠
     static RGBColor darkJungleGreen = RGBColor(r: 26, g: 36, b: 33);
 
     /// 暗卡其色
@@ -648,7 +654,7 @@ class RGBColors
     static RGBColor darkSlateGray = RGBColor(r: 47, g: 79, b: 79);
 
     /// 暗岩灰
-    static RGBColor darkSlateGrey = darkSlateGray;
+    static RGBColor darkSlateGrey = RGBColor(r: 47, g: 79, b: 79);
 
     /// 暗春綠
     static RGBColor darkSpringGreen = RGBColor(r: 23, g: 114, b: 69);
@@ -678,7 +684,7 @@ class RGBColors
     static RGBColor davyGray = RGBColor(r: 85, g: 85, b: 85);
 
     /// 戴維灰
-    static RGBColor davyGrey = davyGray;
+    static RGBColor davyGrey = RGBColor(r: 85, g: 85, b: 85);
 
     /// Debian 紅
     static RGBColor debianRed = RGBColor(r: 215, g: 10, b: 83);
@@ -744,7 +750,7 @@ class RGBColors
     static RGBColor dimGray = RGBColor(r: 105, g: 105, b: 105);
 
     /// 昏灰
-    static RGBColor dimGrey = dimGray;
+    static RGBColor dimGrey = RGBColor(r: 105, g: 105, b: 105);
 
     /// 道奇藍
     static RGBColor dodgerBlue = RGBColor(r: 30, g: 144, b: 255);
@@ -861,7 +867,7 @@ class RGBColors
     static RGBColor flamingo = RGBColor(r: 252, g: 142, b: 172);
 
     /// 火鶴紅
-    static RGBColor flamingoPink = flamingo;
+    static RGBColor flamingoPink = RGBColor(r: 252, g: 142, b: 172);
 
     /// 淺黃色
     static RGBColor flavescent = RGBColor(r: 247, g: 233, b: 142);
@@ -939,7 +945,7 @@ class RGBColors
     static RGBColor gold = RGBColor(r: 255, g: 215, b: 0);
 
     /// 金色
-    static RGBColor golden = gold;
+    static RGBColor golden = RGBColor(r: 255, g: 215, b: 0);
 
     /// 金棕色
     static RGBColor goldenBrown = RGBColor(r: 153, g: 101, b: 21);
@@ -978,13 +984,13 @@ class RGBColors
     static RGBColor greenYellow = RGBColor(r: 173, g: 255, b: 47);
 
     /// 灰色
-    static RGBColor grey = gray;
+    static RGBColor grey = RGBColor(r: 128, g: 128, b: 128);
 
     /// 灰蘆筍色
-    static RGBColor greyAsparagus = grayAsparagus;
+    static RGBColor greyAsparagus = RGBColor(r: 70, g: 89, b: 69);
 
     /// 淺灰紫紅
-    static RGBColor greyishPurple = grayishPurple;
+    static RGBColor greyishPurple = RGBColor(r: 134, g: 116, b: 161);
 
     /// 灰褐色
     static RGBColor grullo = RGBColor(r: 169, g: 154, b: 134);
@@ -1022,11 +1028,11 @@ class RGBColors
     /// 好萊塢櫻桃色
     static RGBColor hollywoodCerise = RGBColor(r: 244, g: 0, b: 161);
 
-    /// 蜜瓜綠
-    static RGBColor honeydew = RGBColor(r: 240, g: 255, b: 240);
-
     /// 蜜橙色
     static RGBColor honeyOrange = RGBColor(r: 255, g: 179, b: 102);
+
+    /// 蜜瓜綠
+    static RGBColor honeydew = RGBColor(r: 240, g: 255, b: 240);
 
     /// 墨綠色
     static RGBColor hookerGreen = RGBColor(r: 73, g: 121, b: 107);
@@ -1074,7 +1080,7 @@ class RGBColors
     static RGBColor ironGray = RGBColor(r: 98, g: 91, b: 87);
 
     /// 鐵灰色
-    static RGBColor ironGrey = ironGray;
+    static RGBColor ironGrey = RGBColor(r: 98, g: 91, b: 87);
 
     /// 伊莎貝拉色
     static RGBColor isabelline = RGBColor(r: 244, g: 240, b: 236);
@@ -1109,14 +1115,14 @@ class RGBColors
     /// 叢林綠
     static RGBColor jungleGreen = RGBColor(r: 41, g: 171, b: 135);
 
-    /// 堪薩斯大學紅
-    static RGBColor kuCrimson = RGBColor(r: 232, g: 0, b: 13);
-
     /// 凱莉綠
     static RGBColor kellyGreen = RGBColor(r: 76, g: 187, b: 23);
 
     /// 卡其色
     static RGBColor khaki = RGBColor(r: 195, g: 176, b: 145);
+
+    /// 堪薩斯大學紅
+    static RGBColor kuCrimson = RGBColor(r: 232, g: 0, b: 13);
 
     /// 拉薩爾綠
     static RGBColor laSalleGreen = RGBColor(r: 8, g: 120, b: 48);
@@ -1149,7 +1155,7 @@ class RGBColors
     static RGBColor lavenderGray = RGBColor(r: 196, g: 195, b: 208);
 
     /// 薰衣草灰
-    static RGBColor lavenderGrey = lavenderGray;
+    static RGBColor lavenderGrey = RGBColor(r: 196, g: 195, b: 208);
 
     /// 薰衣草靛
     static RGBColor lavenderIndigo = RGBColor(r: 148, g: 87, b: 235);
@@ -1175,20 +1181,14 @@ class RGBColors
     /// 檸檬色
     static RGBColor lemon = RGBColor(r: 255, g: 247, b: 0);
 
-    /// 檸檬黃
-    static RGBColor lemonYellow = RGBColor(r: 255, g: 244, b: 79);
-
     /// 檸檬綢色
     static RGBColor lemonChiffon = RGBColor(r: 255, g: 250, b: 205);
 
     /// 檸檬萊姆色
     static RGBColor lemonLime = RGBColor(r: 191, g: 255, b: 0);
 
-    /// 淺緋色
-    static RGBColor lightCrimson = RGBColor(r: 245, g: 105, b: 145);
-
-    /// 淺莓果紅
-    static RGBColor lightThulianPink = RGBColor(r: 230, g: 143, b: 172);
+    /// 檸檬黃
+    static RGBColor lemonYellow = RGBColor(r: 255, g: 244, b: 79);
 
     /// 淺杏色
     static RGBColor lightApricot = RGBColor(r: 253, g: 213, b: 177);
@@ -1208,6 +1208,9 @@ class RGBColors
     /// 淺矢車菊藍
     static RGBColor lightCornflowerBlue = RGBColor(r: 147, g: 204, b: 234);
 
+    /// 淺緋色
+    static RGBColor lightCrimson = RGBColor(r: 245, g: 105, b: 145);
+
     /// 亮青色
     static RGBColor lightCyan = RGBColor(r: 224, g: 255, b: 255);
 
@@ -1220,11 +1223,11 @@ class RGBColors
     /// 亮灰色
     static RGBColor lightGray = RGBColor(r: 211, g: 211, b: 211);
 
-    /// 亮灰色
-    static RGBColor lightGrey = lightGray;
-
     /// 亮綠色
     static RGBColor lightGreen = RGBColor(r: 144, g: 238, b: 144);
+
+    /// 亮灰色
+    static RGBColor lightGrey = RGBColor(r: 211, g: 211, b: 211);
 
     /// 亮卡其色
     static RGBColor lightKhaki = RGBColor(r: 240, g: 230, b: 140);
@@ -1254,13 +1257,16 @@ class RGBColors
     static RGBColor lightSlateGray = RGBColor(r: 119, g: 136, b: 153);
 
     /// 亮岩灰
-    static RGBColor lightSlateGrey = lightSlateGray;
+    static RGBColor lightSlateGrey = RGBColor(r: 119, g: 136, b: 153);
 
     /// 亮鋼藍
     static RGBColor lightSteelBlue = RGBColor(r: 176, g: 196, b: 222);
 
     /// 淺灰褐色
     static RGBColor lightTaupe = RGBColor(r: 179, g: 139, b: 109);
+
+    /// 淺莓果紅
+    static RGBColor lightThulianPink = RGBColor(r: 230, g: 143, b: 172);
 
     /// 亮紫色
     static RGBColor lightViolet = RGBColor(r: 176, g: 157, b: 185);
@@ -1291,9 +1297,6 @@ class RGBColors
 
     /// 慾火色
     static RGBColor lust = RGBColor(r: 230, g: 32, b: 32);
-
-    /// 密西根州立大學綠
-    static RGBColor msuGreen = RGBColor(r: 24, g: 69, b: 59);
 
     /// 起司通心麵色
     static RGBColor macaroniAndCheese = RGBColor(r: 255, g: 189, b: 136);
@@ -1358,9 +1361,6 @@ class RGBColors
     /// 肉棕色
     static RGBColor meatBrown = RGBColor(r: 229, g: 183, b: 59);
 
-    /// 中波斯藍
-    static RGBColor mediumPersianBlue = RGBColor(r: 0, g: 103, b: 165);
-
     /// 中碧藍色
     static RGBColor mediumAquamarine = RGBColor(r: 102, g: 221, b: 170);
 
@@ -1387,6 +1387,9 @@ class RGBColors
 
     /// 中蘭紫
     static RGBColor mediumOrchid = RGBColor(r: 186, g: 85, b: 211);
+
+    /// 中波斯藍
+    static RGBColor mediumPersianBlue = RGBColor(r: 0, g: 103, b: 165);
 
     /// 中紫紅
     static RGBColor mediumPurple = RGBColor(r: 147, g: 112, b: 219);
@@ -1457,11 +1460,11 @@ class RGBColors
     /// 時尚米色
     static RGBColor modeBeige = RGBColor(r: 150, g: 113, b: 23);
 
-    /// 月長石藍
-    static RGBColor moonstoneBlue = RGBColor(r: 115, g: 169, b: 194);
-
     /// 月黃色
     static RGBColor moonYellow = RGBColor(r: 255, g: 255, b: 77);
+
+    /// 月長石藍
+    static RGBColor moonstoneBlue = RGBColor(r: 115, g: 169, b: 194);
 
     /// 酸性媒介紅 19
     static RGBColor mordantRed19 = RGBColor(r: 174, g: 12, b: 0);
@@ -1474,6 +1477,9 @@ class RGBColors
 
     /// 蒙巴頓粉紅
     static RGBColor mountbattenPink = RGBColor(r: 153, g: 122, b: 141);
+
+    /// 密西根州立大學綠
+    static RGBColor msuGreen = RGBColor(r: 24, g: 69, b: 59);
 
     /// 桑椹色
     static RGBColor mulberry = RGBColor(r: 197, g: 75, b: 140);
@@ -1524,7 +1530,7 @@ class RGBColors
     static RGBColor ochre = RGBColor(r: 204, g: 119, b: 34);
 
     /// 中綠色
-    static RGBColor officeGreen = ao;
+    static RGBColor officeGreen = RGBColor(r: 0, g: 128, b: 0);
 
     /// 古金色
     static RGBColor oldGold = RGBColor(r: 207, g: 181, b: 59);
@@ -1562,14 +1568,14 @@ class RGBColors
     /// 橙色
     static RGBColor orange = RGBColor(r: 255, g: 165, b: 0);
 
-    /// 橙黃色
-    static RGBColor orangeYellow = RGBColor(r: 248, g: 213, b: 104);
-
     /// 橙皮色
     static RGBColor orangePeel = RGBColor(r: 255, g: 159, b: 0);
 
     /// 橙紅色
     static RGBColor orangeRed = RGBColor(r: 255, g: 69, b: 0);
+
+    /// 橙黃色
+    static RGBColor orangeYellow = RGBColor(r: 248, g: 213, b: 104);
 
     /// 蘭紫色
     static RGBColor orchid = RGBColor(r: 218, g: 112, b: 214);
@@ -1640,11 +1646,11 @@ class RGBColors
     /// 淡紫丁香色
     static RGBColor paleLilac = RGBColor(r: 230, g: 207, b: 230);
 
-    /// 灰土色
-    static RGBColor paleOcre = RGBColor(r: 249, g: 132, b: 229);
-
     /// 淡洋紅
     static RGBColor paleMagenta = RGBColor(r: 249, g: 132, b: 229);
+
+    /// 灰土色
+    static RGBColor paleOcre = RGBColor(r: 216, g: 183, b: 147);
 
     /// 淡粉紅
     static RGBColor palePink = RGBColor(r: 250, g: 218, b: 221);
@@ -1805,11 +1811,11 @@ class RGBColors
     /// 粉紅火鶴色
     static RGBColor pinkFlamingo = RGBColor(r: 252, g: 116, b: 253);
 
-    /// 粉紅雪寶
-    static RGBColor pinkSherbet = RGBColor(r: 247, g: 143, b: 167);
-
     /// 粉紅珍珠色
     static RGBColor pinkPearl = RGBColor(r: 231, g: 172, b: 207);
+
+    /// 粉紅雪寶
+    static RGBColor pinkSherbet = RGBColor(r: 247, g: 143, b: 167);
 
     /// 開心果色
     static RGBColor pistachio = RGBColor(r: 147, g: 197, b: 114);
@@ -1848,10 +1854,10 @@ class RGBColors
     static RGBColor purpleHeart = RGBColor(r: 105, g: 53, b: 156);
 
     /// 神聖山嶺紫
-    static RGBColor purpleMountainsMajesty = RGBColor(r: 157, g: 129, b: 186);
+    static RGBColor purpleMountainMajesty = RGBColor(r: 150, g: 120, b: 182);
 
     /// 神聖山嶺紫
-    static RGBColor purpleMountainMajesty = RGBColor(r: 150, g: 120, b: 182);
+    static RGBColor purpleMountainsMajesty = RGBColor(r: 157, g: 129, b: 186);
 
     /// 瀟灑紫
     static RGBColor purplePizzazz = RGBColor(r: 254, g: 78, b: 218);
@@ -1889,11 +1895,11 @@ class RGBColors
     /// 紅色
     static RGBColor red = RGBColor(r: 255, g: 0, b: 0);
 
-    /// 紅橙色
-    static RGBColor redOrange = RGBColor(r: 255, g: 83, b: 73);
-
     /// 紅棕色
     static RGBColor redBrown = RGBColor(r: 165, g: 42, b: 42);
+
+    /// 紅橙色
+    static RGBColor redOrange = RGBColor(r: 255, g: 83, b: 73);
 
     /// 紅紫羅蘭色
     static RGBColor redViolet = RGBColor(r: 199, g: 21, b: 133);
@@ -2028,7 +2034,7 @@ class RGBColors
     static RGBColor sandstorm = RGBColor(r: 236, g: 213, b: 64);
 
     /// 沙褐色
-    static RGBColor sandyBrown = sandBrown;
+    static RGBColor sandyBrown = RGBColor(r: 244, g: 164, b: 96);
 
     /// 沙灰褐色
     static RGBColor sandyTaupe = RGBColor(r: 150, g: 113, b: 23);
@@ -2112,7 +2118,7 @@ class RGBColors
     static RGBColor slateGray = RGBColor(r: 112, g: 128, b: 144);
 
     /// 岩灰色
-    static RGBColor slateGrey = slateGray;
+    static RGBColor slateGrey = RGBColor(r: 112, g: 128, b: 144);
 
     /// 深藍色
     static RGBColor smalt = RGBColor(r: 0, g: 51, b: 153);
@@ -2159,11 +2165,11 @@ class RGBColors
     /// 鮮紅色
     static RGBColor strongRed = RGBColor(r: 230, g: 0, b: 0);
 
-    /// 晚霞色
-    static RGBColor sunglow = RGBColor(r: 255, g: 204, b: 51);
-
     /// 陽橙色
     static RGBColor sunOrange = RGBColor(r: 255, g: 115, b: 0);
+
+    /// 晚霞色
+    static RGBColor sunglow = RGBColor(r: 255, g: 204, b: 51);
 
     /// 薄暮色
     static RGBColor sunset = RGBColor(r: 250, g: 214, b: 165);
@@ -2190,7 +2196,7 @@ class RGBColors
     static RGBColor taupeGray = RGBColor(r: 139, g: 133, b: 137);
 
     /// 褐灰色
-    static RGBColor taupeGrey = taupeGray;
+    static RGBColor taupeGrey = RGBColor(r: 139, g: 133, b: 137);
 
     /// 茶色
     static RGBColor tawny = RGBColor(r: 205, g: 87, b: 0);
@@ -2414,14 +2420,14 @@ class RGBColors
     /// 白煙色
     static RGBColor whiteSmoke = RGBColor(r: 245, g: 245, b: 245);
 
+    /// 藍色荒原
+    static RGBColor wildBlueYonder = RGBColor(r: 162, g: 173, b: 208);
+
     /// 野草莓色
     static RGBColor wildStrawberry = RGBColor(r: 255, g: 67, b: 164);
 
     /// 野西瓜色
     static RGBColor wildWatermelon = RGBColor(r: 252, g: 108, b: 133);
-
-    /// 藍色荒原
-    static RGBColor wildBlueYonder = RGBColor(r: 162, g: 173, b: 208);
 
     /// 酒色
     static RGBColor wine = RGBColor(r: 114, g: 47, b: 55);
@@ -2438,11 +2444,11 @@ class RGBColors
     /// 黃色
     static RGBColor yellow = RGBColor(r: 255, g: 255, b: 0);
 
-    /// 黃橙色
-    static RGBColor yellowOrange = RGBColor(r: 255, g: 174, b: 66);
-
     /// 黃綠色
     static RGBColor yellowGreen = RGBColor(r: 154, g: 205, b: 50);
+
+    /// 黃橙色
+    static RGBColor yellowOrange = RGBColor(r: 255, g: 174, b: 66);
 
     /// 氧化鈷藍
     static RGBColor zaffre = RGBColor(r: 0, g: 20, b: 168);
